@@ -28,9 +28,9 @@ $SUDO apt-get install -y build-essential openssl libreadline6 libreadline6-dev c
 
  echo "downloading RVM"
  curl -L -s --output rvm-install.bash https://get.rvm.io
- echo "installing rvm"
+ echo "installing RVM"
  bash -s stable < rvm-install.bash
- echo "loading rvm"
+ echo "loading RVM"
  source ".rvm/scripts/rvm"
  rvm install $MY_RUBY
  rvm use $MY_RUBY
